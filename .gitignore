@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+rescriptsrc.js
+.eslintrc
+
+# testing
+/output
+/coverage
+wallaby.js
+
+# vcode
+/.vscode
+
+# webstorm
+/.idea
+
+#enviroment
+.env
+.env.*
+
+#aws
+aws.js
+
+# production
+/build
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.vscode/launch.json
+package-lock.json
+debug.log*
+debug.log
+.scannerwork/
